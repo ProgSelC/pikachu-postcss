@@ -2,11 +2,9 @@ var postcss = require('postcss');
 
 module.exports = postcss.plugin('pikachuplugin', function (options) {
 
-	return function (css) {
+    return function (css) {
 
-		options = options || {};
-
-		css.walkRules(function (rule) {
+        css.walkRules(function (rule) {
 
             rule.walkDecls(function (decl, i) {
 
@@ -14,8 +12,8 @@ module.exports = postcss.plugin('pikachuplugin', function (options) {
 
             });
 
-		});
+        });
 
-	}
+    }
 
 });
