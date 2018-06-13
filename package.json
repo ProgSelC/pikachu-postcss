@@ -1,0 +1,22 @@
+{
+  "name": "pikachu-postcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProgSelC/pikachu-postcss.git"
+  },
+  "author": "ProgSelC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ProgSelC/pikachu-postcss/issues"
+  },
+  "homepage": "https://github.com/ProgSelC/pikachu-postcss#readme",
+  "devDependencies": {
+    "postcss": "^6.0.22"
+  }
+}
