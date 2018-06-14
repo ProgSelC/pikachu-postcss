@@ -8,7 +8,7 @@ module.exports = postcss.plugin('pikachuplugin', function (options) {
 
             rule.walkDecls(function (decl, i) {
 
-                decl.prop = 'pikachu-' + decl.prop;
+                decl.prop = '--pikachu-' + decl.prop;
 
             });
 
