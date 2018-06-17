@@ -4,6 +4,8 @@ module.exports = postcss.plugin('pikachuplugin', function (options) {
 
     return function (css) {
 
+        options = options || {};
+        
         css.walkRules(function (rule) {
 
             rule.walkDecls(function (decl, i) {

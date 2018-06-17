@@ -16,7 +16,7 @@
     "url": "https://github.com/ProgSelC/pikachu-postcss/issues"
   },
   "homepage": "https://github.com/ProgSelC/pikachu-postcss#readme",
-  "devDependencies": {
+  "dependencies": {
     "postcss": "^6.0.22"
   }
 }
