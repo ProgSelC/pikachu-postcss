@@ -11,7 +11,7 @@ module.exports = postcss.plugin('pikachuplugin', function (options) {
             rule.walkDecls(function (decl, i) {
 
                 var newDecl = decl.cloneBefore();
-                newDecl.prop = '--pikachu-' + newDecl.prop;
+                newDecl.prop = options.prefix + newDecl.prop;
 
             });
 
